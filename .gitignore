@@ -6,4 +6,7 @@ __pycache__/
 /experiment_gemini.ipynb
 /rag_matcher.py
 /db_handler.py
-/docs
+/data/job_descriptions_dataset_test.json
+/data/generation_summary_test.json
+/data/collection_stats_test.json
+/data/processing_summary_test.json

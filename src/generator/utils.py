@@ -1,9 +1,9 @@
 # utils.py
 from typing import Optional, Dict
-from api_client import OpenAIClient
-
+from src.utils.api_client import OpenAIClient
+from src.generator.config import JobConfig
 def validate_inputs(role: str, category: str, company_type: str, location: str, 
-                   experience_level: str, config: 'JobConfig') -> bool:
+                   experience_level: str, config: JobConfig) -> bool:
     """Validate inputs against configuration."""
     if category not in config.JOB_CATEGORIES:
         print(f"Error: Invalid category. Choose from {list(config.JOB_CATEGORIES.keys())}")

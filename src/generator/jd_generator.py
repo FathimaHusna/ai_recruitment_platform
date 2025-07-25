@@ -3,8 +3,8 @@ import random
 import time
 from typing import List, Dict, Optional
 from datetime import datetime
-from config import JobConfig
-from api_client import OpenAIClient
+from src.generator.config import JobConfig
+from src.utils.api_client import OpenAIClient
 
 class JobDescriptionGenerator:
     """Generates job descriptions."""

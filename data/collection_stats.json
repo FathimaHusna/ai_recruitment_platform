@@ -1,0 +1,59 @@
+{
+  "total_jobs": 200,
+  "category_distribution": {
+    "Project Management": 41,
+    "Quality Assurance": 33,
+    "Machine Learning": 32,
+    "DevOps": 29,
+    "Software Engineering": 27,
+    "Data Science": 20,
+    "Business Analytics": 18
+  },
+  "location_distribution": {
+    "Austin, TX": 22,
+    "Phoenix, AZ": 18,
+    "Dallas, TX": 18,
+    "New York, NY": 15,
+    "San Francisco, CA": 15,
+    "Portland, OR": 14,
+    "Washington, DC": 12,
+    "Miami, FL": 12,
+    "Atlanta, GA": 12,
+    "Los Angeles, CA": 11,
+    "Seattle, WA": 11,
+    "San Diego, CA": 10,
+    "Boston, MA": 10,
+    "Chicago, IL": 10,
+    "Denver, CO": 6,
+    "Remote": 4
+  },
+  "seniority_distribution": {
+    "1": 53,
+    "2": 48,
+    "3": 54,
+    "4": 45
+  },
+  "top_technical_skills": {
+    "Python": 85,
+    "SQL": 33,
+    "Java": 29,
+    "TensorFlow": 28,
+    "R": 24,
+    "Selenium": 23,
+    "Tableau": 21,
+    "AWS": 20,
+    "Kubernetes": 18,
+    "Docker": 18,
+    "Azure": 18,
+    "JavaScript": 18,
+    "Jira": 16,
+    "PyTorch": 15,
+    "Power BI": 15,
+    "React": 14,
+    "JUnit": 13,
+    "Node.js": 11,
+    "Microsoft Project": 10,
+    "Angular": 9
+  },
+  "last_updated": "2025-07-25T18:12:35.852838"
+}
