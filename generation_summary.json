@@ -1,0 +1,51 @@
+{
+  "total_jobs": 200,
+  "categories": {
+    "DevOps": 29,
+    "Software Engineering": 27,
+    "Machine Learning": 32,
+    "Project Management": 41,
+    "Quality Assurance": 33,
+    "Business Analytics": 18,
+    "Data Science": 20
+  },
+  "locations": {
+    "Austin, TX": 22,
+    "Washington, DC": 12,
+    "Remote": 4,
+    "Los Angeles, CA": 11,
+    "Dallas, TX": 18,
+    "San Francisco, CA": 15,
+    "Denver, CO": 6,
+    "Miami, FL": 12,
+    "New York, NY": 15,
+    "San Diego, CA": 10,
+    "Chicago, IL": 10,
+    "Seattle, WA": 11,
+    "Portland, OR": 14,
+    "Boston, MA": 10,
+    "Phoenix, AZ": 18,
+    "Atlanta, GA": 12
+  },
+  "experience_levels": {
+    "Lead/Principal": 45,
+    "Mid Level": 48,
+    "Entry Level": 53,
+    "Senior Level": 54
+  },
+  "company_types": {
+    "Tech Startup": 18,
+    "Non-profit Organization": 17,
+    "E-commerce Platform": 19,
+    "Consulting Firm": 20,
+    "Healthcare Organization": 16,
+    "Government Agency": 16,
+    "SaaS Company": 16,
+    "Fortune 500 Company": 16,
+    "Educational Institution": 15,
+    "Media Company": 11,
+    "Manufacturing Company": 16,
+    "Financial Services": 20
+  },
+  "generation_date": "2025-07-25T16:02:31.172391"
+}
