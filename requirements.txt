@@ -1,3 +1,10 @@
 openai
 python-dotenv
 pymongo
+scikit-learn
+numpy
+pandas
+PyPDF2
+python-docx
+reportlab
+streamlit
