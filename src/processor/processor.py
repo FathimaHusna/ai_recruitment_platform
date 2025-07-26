@@ -9,6 +9,7 @@ from dataclasses import asdict
 import time
 from .models import ProcessedJobDescription
 from .utils import clean_json_response, map_seniority_level
+import certifi
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -30,7 +31,10 @@ class JobDescriptionProcessor:
         retries = 3
         for attempt in range(retries):
             try:
-                self.mongo_client = MongoClient(mongo_uri, serverSelectionTimeoutMS=5000)
+                self.mongo_client = MongoClient(mongo_uri,
+                                                 serverSelectionTimeoutMS=5000,
+                                                  tlsCAFile=certifi.where(),
+                                                  tlsAllowInvalidCertificates=False)
                 self.mongo_client.admin.command("ping")  # Test connection
                 self.db = self.mongo_client[database_name]
                 self.collection = self.db.job_descriptions
